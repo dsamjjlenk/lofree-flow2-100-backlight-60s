@@ -14,6 +14,8 @@ Model:    OE926
 USB ID:   VID_388D PID_0003
 ```
 
+That USB ID is **not a private ID from one computer**. `VID_388D` is the vendor ID and `PID_0003` is the product ID. People with the same Flow2 100 / OE926 should see the same USB ID in wired mode.
+
 Do **not** use it for:
 
 ```text
@@ -21,6 +23,12 @@ Flow2 68
 Flow2 84
 Any other Lofree keyboard
 Any keyboard with a different USB ID
+```
+
+If your Windows Device Manager shows extra text after that, such as interface numbers, collection numbers, or a long device path, that part can be computer-specific. The important shared hardware ID is only:
+
+```text
+VID_388D PID_0003
 ```
 
 ## What It Does

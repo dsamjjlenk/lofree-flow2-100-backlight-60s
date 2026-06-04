@@ -8,6 +8,8 @@ No. It is only for:
 Lofree Flow2 100 / OE926 / VID_388D PID_0003
 ```
 
+`VID_388D PID_0003` is not one person's private serial number. It is the shared vendor/product USB ID for this keyboard model in wired mode.
+
 ## Does this change my keymap?
 
 No. It changes only the backlight idle timeout constant in the firmware.
