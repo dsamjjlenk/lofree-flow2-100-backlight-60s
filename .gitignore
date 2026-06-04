@@ -1,0 +1,10 @@
+dist/*
+!dist/.gitkeep
+*.bin
+*.hex
+!firmware/*.bin
+!firmware/*.hex
+*.zip
+__pycache__/
+*.pyc
+verify_readback_*.bin
