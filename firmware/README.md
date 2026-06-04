@@ -8,7 +8,7 @@ Use only for:
 Lofree Flow2 100 / OE926 / VID_388D PID_0003
 ```
 
-`VID_388D PID_0003` is the shared USB vendor/product ID for this model, not a unique serial number from one PC.
+`VID_388D PID_0003` is the shared USB vendor/product ID that the keyboard firmware reports for this model, not a unique serial number from one PC.
 
 Files:
 

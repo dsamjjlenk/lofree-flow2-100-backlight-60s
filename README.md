@@ -14,7 +14,7 @@ Model:    OE926
 USB ID:   VID_388D PID_0003
 ```
 
-That USB ID is **not a private ID from one computer**. `VID_388D` is the vendor ID and `PID_0003` is the product ID. People with the same Flow2 100 / OE926 should see the same USB ID in wired mode.
+That USB ID is **not a private ID from one computer**. `VID_388D` is the vendor ID and `PID_0003` is the product ID. The keyboard firmware reports these values in its USB device descriptor. People with the same Flow2 100 / OE926 and compatible firmware should see the same USB ID in wired mode.
 
 Do **not** use it for:
 
@@ -30,6 +30,8 @@ If your Windows Device Manager shows extra text after that, such as interface nu
 ```text
 VID_388D PID_0003
 ```
+
+If Lofree ever ships a different hardware or firmware revision with a different product ID, stop and do not flash this firmware until that revision is verified.
 
 ## What It Does
 

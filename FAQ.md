@@ -8,7 +8,9 @@ No. It is only for:
 Lofree Flow2 100 / OE926 / VID_388D PID_0003
 ```
 
-`VID_388D PID_0003` is not one person's private serial number. It is the shared vendor/product USB ID for this keyboard model in wired mode.
+`VID_388D PID_0003` is not one person's private serial number. It is the shared vendor/product USB ID that the keyboard firmware reports for this model in wired mode.
+
+Windows may show a longer device path after the VID/PID. That longer path can differ between computers. The VID/PID pair is the model-level part.
 
 ## Does this change my keymap?
 

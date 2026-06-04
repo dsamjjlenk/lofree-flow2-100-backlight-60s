@@ -10,7 +10,9 @@ Normal USB ID: VID_388D PID_0003
 DFU USB ID:    VID_342D PID_DFA0
 ```
 
-The normal USB ID is a shared vendor/product identifier, not a per-user or per-computer serial number. Windows instance IDs and HID paths can contain extra machine-specific details, but the model-level hardware ID is `VID_388D PID_0003`.
+The normal USB ID is reported by the keyboard firmware in the USB device descriptor. It is a shared vendor/product identifier, not a per-user or per-computer serial number. Windows instance IDs and HID paths can contain extra machine-specific details, but the model-level hardware ID is `VID_388D PID_0003`.
+
+If a future hardware or firmware revision reports a different product ID, that revision should be treated as unverified until its firmware is dumped and compared.
 
 VIA RAW HID:
 
